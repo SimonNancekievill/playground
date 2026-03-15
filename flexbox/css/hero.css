@@ -1,0 +1,20 @@
+.hero-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  font-size: 1.5rem;
+}
+
+.--hero-image {
+  background-image: url(../assets/DM_1.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-title {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Flexbox</title>
   </head>
   <body>
     <header class="header">
-      <nav class="header__nav">
+      <nav class="header__nav" aria-label="Main Navigation">
         <ul class="nav__list" role="menubar" name="navigation">
           <li class="nav__list-item">
             <a href="" role="menuitem">Link 1</a>
@@ -22,8 +23,11 @@
       </nav>
     </header>
     <main class="main__content" aria-label="main__content">
-      <article class="content-article">
-        <h1 class="--article-headline">This is a Heading</h1>
+      <article class="hero-card --hero-image">
+        <h1 class="card-title">Flexbox</h1>
+      </article>
+      <article class="content-article one">
+        <h2 class="--article-headline">This is a Heading</h2>
         <p class="--article-text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
           veritatis iste ex veniam, architecto deleniti exercitationem quidem
@@ -35,8 +39,8 @@
       </article>
     </main>
     <aside class="aside__content">
-      <article class="content-article">
-        <h1 class="--article-headline">This is a Heading</h1>
+      <article class="content-article 2">
+        <h2 class="--article-headline">This is a Heading</h2>
         <p class="--article-text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
           veritatis iste ex veniam, architecto deleniti exercitationem quidem
@@ -46,8 +50,8 @@
         <button class="button1">Style me!</button>
         <button class="button1">Style me!</button>
       </article>
-      <article class="content-article">
-        <h1 class="--article-headline">This is a Heading</h1>
+      <article class="content-article 2">
+        <h2 class="--article-headline">This is a Heading</h2>
         <p class="--article-text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
           veritatis iste ex veniam, architecto deleniti exercitationem quidem

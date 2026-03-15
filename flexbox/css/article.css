@@ -1,0 +1,26 @@
+.content-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  padding: 5%;
+}
+
+.--article-headline {
+  color: var(--oragne-color);
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+}
+
+.--article-text {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4rem;
+}
+
+.one {
+  background-color: cornflowerblue;
+  border-radius: 10%;
+}
