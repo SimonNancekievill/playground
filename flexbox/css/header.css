@@ -2,6 +2,7 @@
   width: 100%;
   height: 60px;
   background-color: var(--orange-color);
+  position: relative;
 }
 
 .nav__list {
